@@ -36,6 +36,6 @@ This example, unmodified, will run the create a `report.md` file with the output
 
 ## Understanding Your Crew
 
-The countent-creator Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
+The countent-creator Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `content_agents.py`, leveraging their collective skills to achieve complex objectives. The `content_tasks.py` file outlines the capabilities and configurations of each agent in your cr
 
 Let's create wonders together with the power and simplicity of crewAI.
