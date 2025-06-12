@@ -20,12 +20,7 @@ crewai install
 ```
 ### Customizing
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
-
-- Modify `src/countent_creator/config/agents.yaml` to define your agents
-- Modify `src/countent_creator/config/tasks.yaml` to define your tasks
-- Modify `src/countent_creator/crew.py` to add your own logic, tools and specific args
-- Modify `src/countent_creator/main.py` to add custom inputs for your agents and tasks
+**Add your `Serper_API_KEY` into the `.env` file**
 
 ## Running the Project
 
