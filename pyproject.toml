@@ -1,0 +1,24 @@
+[project]
+name = "countent_creator"
+version = "0.1.0"
+description = "countent-creator using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "boto3>=1.38.33",
+    "crewai[tools]>=0.121.1,<1.0.0",
+]
+
+[project.scripts]
+countent_creator = "countent_creator.main:run"
+run_crew = "countent_creator.main:run"
+train = "countent_creator.main:train"
+replay = "countent_creator.main:replay"
+test = "countent_creator.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
